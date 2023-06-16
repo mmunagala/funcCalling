@@ -14,7 +14,7 @@ This project demonstrates a simple example of using the Function calling feature
 3. Run Startup.bat
 
 
-## Function calling [https://openai.com/blog/function-calling-and-other-api-updates?ref=upstract.com]
+## About Function calling 
 Developers can now describe functions to gpt-4-0613 and gpt-3.5-turbo-0613, and have the model intelligently choose to output a JSON object containing arguments to call those functions. This is a new way to more reliably connect GPT's capabilities with external tools and APIs.
 
 These models have been fine-tuned to both detect when a function needs to be called (depending on the user’s input) and to respond with JSON that adheres to the function signature. Function calling allows developers to more reliably get structured data back from the model. For example, developers can:
@@ -29,3 +29,6 @@ Extract structured data from text
 Define a function called extract_people_data(people: [{name: string, birthday: string, location: string}]), to extract all people mentioned in a Wikipedia article.
 
 These use cases are enabled by new API parameters in our /v1/chat/completions endpoint, functions and function_call, that allow developers to describe functions to the model via JSON Schema, and optionally ask it to call a specific function. Get started with our developer documentation and add evals if you find cases where function calling could be improved
+
+
+https://openai.com/blog/function-calling-and-other-api-updates?ref=upstract.com
