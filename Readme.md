@@ -9,7 +9,7 @@ This project demonstrates a simple example of using the Function calling feature
    ```shell
    git clone https://github.com/your-username/home-automation.git
 
-2. Create .env file and add your OpenAI API Key
+2. Create .env file and add your OpenAI API Key [API_KEY]
 
 3. Run Startup.bat
 
